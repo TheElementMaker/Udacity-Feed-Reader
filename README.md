@@ -2,7 +2,7 @@
 This project is to test feedReader code using Jasmine.js along with jQuery
 
 # How to run
-* live link :
+* live link : https://theelementmaker.github.io/Udacity-Feed-Reader/
 * Run index.html in any modern browser
 # Spec's
 * # New Feed Selection
