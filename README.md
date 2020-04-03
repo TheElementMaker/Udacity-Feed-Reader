@@ -2,7 +2,7 @@
 This project is to test feedReader code using Jasmine.js along with jQuery
 
 # How to run
-* Run index.html in any modern browser
+Download repo and run index.html on a modern web browser
 
 # Spec's
 * # New Feed Selection
