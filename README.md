@@ -23,4 +23,8 @@ Download repo and run index.html on a modern web browser
 * # Initial Entries
     * On Screen
         * Tests to see if there a element displayed on the page
+
+* # New Feed Selection
+    * Did feed load
+        * Testing to see if content was added to the page
         

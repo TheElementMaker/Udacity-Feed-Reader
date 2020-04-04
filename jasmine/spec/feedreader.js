@@ -58,4 +58,29 @@ $(function(){
             expect($('.feed .entry').length).toBeGreaterThan(0);
         });
    });
+   /*
+        
+   */
+   describe('New Feed Selection', function(){
+    let oldFeed;
+    let newFeed;
+
+    beforeEach(function (done) {
+      loadFeed(0, function () {
+        oldFeed = $('.feed').html();
+        done();
+      });
+    });
+    //  Spec 7
+    // Testing if content loaded on screen
+    it('Did feed load', function (done) {
+        loadFeed(1, function () {
+          newFeed = $('.feed').html();
+          expect(oldFeed).toBeDefined();
+          expect(newFeed).toBeDefined();
+          expect(newFeed).not.toEqual(oldFeed);
+          done();
+        });
+      });
+   });
 }());
